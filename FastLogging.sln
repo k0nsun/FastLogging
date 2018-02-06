@@ -5,6 +5,12 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastLogging", "FastLogging\FastLogging.csproj", "{76672FBF-54EE-4E76-B930-378ED90B9CDA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9AEDBF7F-2B36-4453-BD32-976CC72D0FD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example", "Example", "{F5990FEB-B29A-4826-B638-D911D112D567}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationExemple", "ConsoleApplicationExemple\ConsoleApplicationExemple.csproj", "{23ECBE04-5DD2-4ACE-8148-18655D410E6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +21,16 @@ Global
 		{76672FBF-54EE-4E76-B930-378ED90B9CDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76672FBF-54EE-4E76-B930-378ED90B9CDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76672FBF-54EE-4E76-B930-378ED90B9CDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23ECBE04-5DD2-4ACE-8148-18655D410E6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23ECBE04-5DD2-4ACE-8148-18655D410E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23ECBE04-5DD2-4ACE-8148-18655D410E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23ECBE04-5DD2-4ACE-8148-18655D410E6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{76672FBF-54EE-4E76-B930-378ED90B9CDA} = {9AEDBF7F-2B36-4453-BD32-976CC72D0FD7}
+		{23ECBE04-5DD2-4ACE-8148-18655D410E6A} = {F5990FEB-B29A-4826-B638-D911D112D567}
 	EndGlobalSection
 EndGlobal

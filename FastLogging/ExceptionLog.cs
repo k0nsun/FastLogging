@@ -25,7 +25,7 @@ namespace FastLogging
         /// </summary>
         /// <param name="message">Message de l'exception.</param>
         /// <param name="innerException">Exception interne.</param>
-        public ExceptionLog(string message, System.Exception innerException)
+        public  ExceptionLog(string message, System.Exception innerException)
             : base(message, innerException)
         {
             Log.Error(message, innerException);
