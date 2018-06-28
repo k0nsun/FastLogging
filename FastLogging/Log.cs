@@ -15,7 +15,7 @@ namespace FastLogging
         /// <summary>
         /// Logger. Need to used with a section log4net in .config
         /// </summary>
-        private static readonly ILog Logger = LogManager.GetLogger("TopContract");
+        private static readonly ILog Logger = LogManager.GetLogger("FastLogging");
 
         /// <summary>
         /// Object for thread-safe. 
